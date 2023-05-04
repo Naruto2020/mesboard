@@ -1,0 +1,21 @@
+{
+    "name": "vendor_name/phpproject",
+    "description": "Message board",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve",
+            "email": "guyfredy@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "behat/behat": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "mesBoard\\": "src/"
+        }
+    }
+}

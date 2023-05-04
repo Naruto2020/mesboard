@@ -1,0 +1,14 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A basic message board",
+  "main": "src/messageBoard.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Steve Kounga",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}

@@ -1,0 +1,9 @@
+default:
+  autoload:
+    '': %paths.base%/tests/php/bootstrap
+  suites:
+    default:
+      paths:
+        - %paths.base%/tests/php/features
+      contexts:
+        - FeatureContext
